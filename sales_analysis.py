@@ -50,6 +50,7 @@ plt.title("Monthly Sales Trend")
 plt.xlabel("Month")
 plt.ylabel("Total Sales")
 plt.grid()
+plt.savefig("monthly_sales_trend.png", bbox_inches="tight", dpi=300)
 plt.show()
 
 # 📌 Step 9: Sales by Category (NEW ADDITION)
@@ -61,6 +62,7 @@ plt.xlabel("Category")
 plt.ylabel("Total Sales")
 plt.title("Sales by Category")
 plt.xticks(rotation=45)
+plt.savefig("sales_by_category.png", bbox_inches="tight", dpi=300)
 plt.show()
 
 # 📌 Step 10: Top 10 Cities with Highest Sales (NEW ADDITION)
@@ -72,6 +74,8 @@ plt.xlabel("City")
 plt.ylabel("Total Sales")
 plt.title("Top 10 Cities with Highest Sales")
 plt.xticks(rotation=45)
+
+plt.savefig("top_cities_sales.png", bbox_inches="tight", dpi=300)
 plt.show()
 
 # Step 11: Save the Cleaned Dataset
